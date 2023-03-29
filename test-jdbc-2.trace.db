@@ -1,0 +1,44 @@
+2023-03-28 21:15:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1358)
+	at ua.goit.vic.databaseUtils.DatabasePopulateService.main(DatabasePopulateService.java:40)
+2023-03-28 21:17:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1358)
+	at ua.goit.vic.databaseUtils.DatabasePopulateService.main(DatabasePopulateService.java:40)
+2023-03-28 21:24:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1358)
+	at ua.goit.vic.databaseUtils.DatabasePopulateService.main(DatabasePopulateService.java:39)
+2023-03-28 21:34:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1358)
+	at ua.goit.vic.databaseUtils.DatabasePopulateService.main(DatabasePopulateService.java:39)
+2023-03-29 09:33:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "[*]SELET * FROM worker"; ожидалось "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "[*]SELET * FROM worker"; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SELET * FROM worker [42001-214]
